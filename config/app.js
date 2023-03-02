@@ -28,7 +28,6 @@ exports.logger = {
     name: Env_1.default.get('APP_NAME'),
     enabled: true,
     level: Env_1.default.get('LOG_LEVEL', 'info'),
-    prettyPrint: Env_1.default.get('NODE_ENV') === 'development',
 };
 exports.profiler = {
     enabled: true,
